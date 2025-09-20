@@ -105,7 +105,7 @@ while True:
 
         #alibaba
         url_alibaba = "https://ws.alibaba.ir/api/v3/account/mobile/otp"
-        json_alibaba = {"phoneNumber":number}
+        json_alibaba = {"phoneNumber":"98"+number}
 
         #esam
         url_esam = "https://api.esam.ir/api/account/v2/RegisterOrLogin"
